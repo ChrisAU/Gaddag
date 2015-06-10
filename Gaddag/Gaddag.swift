@@ -1,6 +1,6 @@
 //
 //  Gaddag.swift
-//  Locution
+//  Gaddag
 //
 //  Created by Chris Nevin on 9/06/2015.
 //  Copyright (c) 2015 CJNevin. All rights reserved.
