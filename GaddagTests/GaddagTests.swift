@@ -21,16 +21,16 @@ class GaddagTests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        XCTAssert(true, "Pass")
+    func testGaddag() {
+		// This is an example of a functional test case.
+		var gaddag = Gaddag()
+		gaddag.add("cat")
+		gaddag.add("cater")
+		gaddag.add("caterpillar")
+		gaddag.add("catered")
+		// Check to see if a word is defined
+		XCTAssert(gaddag.wordDefined("caterpillar"), "Not defined")
+		// Find all words which can be made with the current items in our rack
+		XCTAssert(gaddag.findWords("", rack: "catered").count == 3, "Count should be 3")
     }
-    
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measureBlock() {
-            // Put the code you want to measure the time of here.
-        }
-    }
-    
 }

@@ -13,6 +13,8 @@
 		99DC9D211B284CB50092222B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99DC9D201B284CB50092222B /* Images.xcassets */; };
 		99DC9D241B284CB50092222B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99DC9D221B284CB50092222B /* LaunchScreen.xib */; };
 		99DC9D301B284CB50092222B /* GaddagTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DC9D2F1B284CB50092222B /* GaddagTests.swift */; };
+		99DC9D3A1B284CCF0092222B /* Gaddag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DC9D391B284CCF0092222B /* Gaddag.swift */; };
+		99DC9D3B1B284D050092222B /* Gaddag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DC9D391B284CCF0092222B /* Gaddag.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,7 @@
 		99DC9D291B284CB50092222B /* GaddagTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GaddagTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		99DC9D2E1B284CB50092222B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		99DC9D2F1B284CB50092222B /* GaddagTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaddagTests.swift; sourceTree = "<group>"; };
+		99DC9D391B284CCF0092222B /* Gaddag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gaddag.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +82,7 @@
 			children = (
 				99DC9D191B284CB50092222B /* AppDelegate.swift */,
 				99DC9D1B1B284CB50092222B /* ViewController.swift */,
+				99DC9D391B284CCF0092222B /* Gaddag.swift */,
 				99DC9D1D1B284CB50092222B /* Main.storyboard */,
 				99DC9D201B284CB50092222B /* Images.xcassets */,
 				99DC9D221B284CB50092222B /* LaunchScreen.xib */,
@@ -212,6 +216,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99DC9D3A1B284CCF0092222B /* Gaddag.swift in Sources */,
 				99DC9D1C1B284CB50092222B /* ViewController.swift in Sources */,
 				99DC9D1A1B284CB50092222B /* AppDelegate.swift in Sources */,
 			);
@@ -222,6 +227,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				99DC9D301B284CB50092222B /* GaddagTests.swift in Sources */,
+				99DC9D3B1B284D050092222B /* Gaddag.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
