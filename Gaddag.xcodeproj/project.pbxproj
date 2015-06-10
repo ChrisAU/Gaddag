@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99DC9D1A1B284CB50092222B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DC9D191B284CB50092222B /* AppDelegate.swift */; };
+		99DC9D1C1B284CB50092222B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DC9D1B1B284CB50092222B /* ViewController.swift */; };
+		99DC9D1F1B284CB50092222B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99DC9D1D1B284CB50092222B /* Main.storyboard */; };
+		99DC9D211B284CB50092222B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99DC9D201B284CB50092222B /* Images.xcassets */; };
+		99DC9D241B284CB50092222B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99DC9D221B284CB50092222B /* LaunchScreen.xib */; };
+		99DC9D301B284CB50092222B /* GaddagTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DC9D2F1B284CB50092222B /* GaddagTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		99DC9D2A1B284CB50092222B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99DC9D0C1B284CB50092222B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99DC9D131B284CB50092222B;
+			remoteInfo = Gaddag;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		99DC9D141B284CB50092222B /* Gaddag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gaddag.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99DC9D181B284CB50092222B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99DC9D191B284CB50092222B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		99DC9D1B1B284CB50092222B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		99DC9D1E1B284CB50092222B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		99DC9D201B284CB50092222B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		99DC9D231B284CB50092222B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		99DC9D291B284CB50092222B /* GaddagTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GaddagTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99DC9D2E1B284CB50092222B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99DC9D2F1B284CB50092222B /* GaddagTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaddagTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99DC9D111B284CB50092222B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99DC9D261B284CB50092222B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99DC9D0B1B284CB50092222B = {
+			isa = PBXGroup;
+			children = (
+				99DC9D161B284CB50092222B /* Gaddag */,
+				99DC9D2C1B284CB50092222B /* GaddagTests */,
+				99DC9D151B284CB50092222B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		99DC9D151B284CB50092222B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99DC9D141B284CB50092222B /* Gaddag.app */,
+				99DC9D291B284CB50092222B /* GaddagTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99DC9D161B284CB50092222B /* Gaddag */ = {
+			isa = PBXGroup;
+			children = (
+				99DC9D191B284CB50092222B /* AppDelegate.swift */,
+				99DC9D1B1B284CB50092222B /* ViewController.swift */,
+				99DC9D1D1B284CB50092222B /* Main.storyboard */,
+				99DC9D201B284CB50092222B /* Images.xcassets */,
+				99DC9D221B284CB50092222B /* LaunchScreen.xib */,
+				99DC9D171B284CB50092222B /* Supporting Files */,
+			);
+			path = Gaddag;
+			sourceTree = "<group>";
+		};
+		99DC9D171B284CB50092222B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				99DC9D181B284CB50092222B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		99DC9D2C1B284CB50092222B /* GaddagTests */ = {
+			isa = PBXGroup;
+			children = (
+				99DC9D2F1B284CB50092222B /* GaddagTests.swift */,
+				99DC9D2D1B284CB50092222B /* Supporting Files */,
+			);
+			path = GaddagTests;
+			sourceTree = "<group>";
+		};
+		99DC9D2D1B284CB50092222B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				99DC9D2E1B284CB50092222B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99DC9D131B284CB50092222B /* Gaddag */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99DC9D331B284CB50092222B /* Build configuration list for PBXNativeTarget "Gaddag" */;
+			buildPhases = (
+				99DC9D101B284CB50092222B /* Sources */,
+				99DC9D111B284CB50092222B /* Frameworks */,
+				99DC9D121B284CB50092222B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gaddag;
+			productName = Gaddag;
+			productReference = 99DC9D141B284CB50092222B /* Gaddag.app */;
+			productType = "com.apple.product-type.application";
+		};
+		99DC9D281B284CB50092222B /* GaddagTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99DC9D361B284CB50092222B /* Build configuration list for PBXNativeTarget "GaddagTests" */;
+			buildPhases = (
+				99DC9D251B284CB50092222B /* Sources */,
+				99DC9D261B284CB50092222B /* Frameworks */,
+				99DC9D271B284CB50092222B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99DC9D2B1B284CB50092222B /* PBXTargetDependency */,
+			);
+			name = GaddagTests;
+			productName = GaddagTests;
+			productReference = 99DC9D291B284CB50092222B /* GaddagTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99DC9D0C1B284CB50092222B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = CJNevin;
+				TargetAttributes = {
+					99DC9D131B284CB50092222B = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					99DC9D281B284CB50092222B = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 99DC9D131B284CB50092222B;
+					};
+				};
+			};
+			buildConfigurationList = 99DC9D0F1B284CB50092222B /* Build configuration list for PBXProject "Gaddag" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 99DC9D0B1B284CB50092222B;
+			productRefGroup = 99DC9D151B284CB50092222B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99DC9D131B284CB50092222B /* Gaddag */,
+				99DC9D281B284CB50092222B /* GaddagTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99DC9D121B284CB50092222B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99DC9D1F1B284CB50092222B /* Main.storyboard in Resources */,
+				99DC9D241B284CB50092222B /* LaunchScreen.xib in Resources */,
+				99DC9D211B284CB50092222B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99DC9D271B284CB50092222B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99DC9D101B284CB50092222B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99DC9D1C1B284CB50092222B /* ViewController.swift in Sources */,
+				99DC9D1A1B284CB50092222B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99DC9D251B284CB50092222B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99DC9D301B284CB50092222B /* GaddagTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		99DC9D2B1B284CB50092222B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99DC9D131B284CB50092222B /* Gaddag */;
+			targetProxy = 99DC9D2A1B284CB50092222B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		99DC9D1D1B284CB50092222B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99DC9D1E1B284CB50092222B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		99DC9D221B284CB50092222B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99DC9D231B284CB50092222B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		99DC9D311B284CB50092222B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		99DC9D321B284CB50092222B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99DC9D341B284CB50092222B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Gaddag/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		99DC9D351B284CB50092222B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Gaddag/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		99DC9D371B284CB50092222B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GaddagTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gaddag.app/Gaddag";
+			};
+			name = Debug;
+		};
+		99DC9D381B284CB50092222B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GaddagTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gaddag.app/Gaddag";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99DC9D0F1B284CB50092222B /* Build configuration list for PBXProject "Gaddag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99DC9D311B284CB50092222B /* Debug */,
+				99DC9D321B284CB50092222B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99DC9D331B284CB50092222B /* Build configuration list for PBXNativeTarget "Gaddag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99DC9D341B284CB50092222B /* Debug */,
+				99DC9D351B284CB50092222B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		99DC9D361B284CB50092222B /* Build configuration list for PBXNativeTarget "GaddagTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99DC9D371B284CB50092222B /* Debug */,
+				99DC9D381B284CB50092222B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99DC9D0C1B284CB50092222B /* Project object */;
+}
